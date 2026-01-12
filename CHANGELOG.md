@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2025-01-12
+
+### Fixed
+- `run.bat` now auto-installs dependencies if missing
+- Better error messages for Python not found
+- Added dependency check before launching application
+
+### Changed
+- Improved launcher script with clearer user feedback
+- Added Python version display on startup
+
 ## [1.1.0] - 2025-01-12
 
 ### Added
@@ -67,6 +78,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Git Commit Messages
 
+### v1.1.1
+```
+fix: auto-install dependencies in run.bat launcher
+
+- Add dependency check before launching application
+- Auto-run pip install if packages are missing
+- Improve error messages for missing Python
+- Display Python version on startup
+
+Fixes: ModuleNotFoundError when running from source
+```
+
 ### v1.1.0
 ```
 feat: add portable version without matplotlib dependency
@@ -108,7 +131,8 @@ feat: add sample data generator
 - Include quarterly dividend payments
 ```
 
-[Unreleased]: https://github.com/hmofet/Financial-Analyst/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/hmofet/Financial-Analyst/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/hmofet/Financial-Analyst/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/hmofet/Financial-Analyst/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/hmofet/Financial-Analyst/compare/v0.1.0...v1.0.0
 [0.1.0]: https://github.com/hmofet/Financial-Analyst/releases/tag/v0.1.0

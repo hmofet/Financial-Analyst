@@ -2,7 +2,7 @@
 
 A Windows desktop application for analyzing Questrade trading transactions with FIFO P&L calculations, charts, and comprehensive reporting.
 
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![Python](https://img.shields.io/badge/python-3.10%2B-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -40,7 +40,16 @@ A Windows desktop application for analyzing Questrade trading transactions with 
 
 ## Installation
 
-### Option 1: Run from Source
+### Option 1: Quick Start (Recommended)
+
+1. Install Python 3.10 or 3.11 from [python.org](https://python.org/downloads/)
+   - **Important:** Check "Add Python to PATH" during installation
+
+2. Double-click `run.bat`
+   - Dependencies will be installed automatically on first run
+   - Application will launch after setup completes
+
+### Option 2: Run from Source (Manual)
 
 1. Install Python 3.10 or 3.11 (recommended)
    ```
@@ -57,7 +66,7 @@ A Windows desktop application for analyzing Questrade trading transactions with 
    python trading_report_builder.py
    ```
 
-### Option 2: Build Standalone Executable
+### Option 3: Build Standalone Executable
 
 1. Run the build script:
    ```batch
