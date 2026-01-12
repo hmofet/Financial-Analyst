@@ -1,9 +1,0 @@
-# Trading Report Builder - Portable Version
-# Minimal dependencies for best compatibility
-# Install with: pip install -r requirements.txt
-
-pandas==2.0.3
-numpy==1.24.3
-openpyxl==3.1.2
-reportlab==4.0.4
-pyinstaller==6.3.0
